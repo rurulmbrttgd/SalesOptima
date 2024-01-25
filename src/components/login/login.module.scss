@@ -1,0 +1,34 @@
+.root {
+  width: 1920px;
+  height: 1080px;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
+  background-color: #003140;
+}
+.logo-div {
+  background-color: #003140;
+  height: 1080px;
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin: 0px;
+  padding-right: 300px;
+}
+.login-div {
+  width: 560px;
+  background-color: #003140;
+  height: 1080px;
+  padding: 0px 0px 0px 300px;
+}
+.middle-line {
+  display: inline-block;
+  position: absolute;
+}
+.login-logo {
+  width: 860px;
+  display: flex;
+  margin-top: 100px;
+}
