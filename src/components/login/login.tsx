@@ -13,20 +13,61 @@ export const Login = ({ className }: LoginProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <div className={styles['login-div']}>
-                <div>
-                    <h4>Heading 4</h4>
-                    <h4>Heading 4</h4>
+                <div className={styles.email}>
+                    <h4>Email</h4>
+                    <h4>
+                        <input className={styles['input']} value="abcde@gmail.com" />
+                    </h4>
+                    <svg
+                        width="450"
+                        height="2"
+                        viewBox="0 0 450 2"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        className={styles.line}
+                    >
+                        <line
+                            x1="-0.00228882"
+                            y1="0.518097"
+                            x2="449.998"
+                            y2="0.518097"
+                            stroke="white"
+                        />
+                    </svg>
                 </div>
-                <div>
-                    <h4>Heading 4</h4>
-                    <h4>Heading 4</h4>
-                    <h4>Heading 4</h4>
+                <div className={styles.password}>
+                    <h4>Password</h4>
+                    <h4 className={styles['password-text']}>
+                        <input
+                            className={styles['input']}
+                            value="abcde@gmail.com"
+                            type="password"
+                        />
+                    </h4>
+                    <svg
+                        width="450"
+                        height="2"
+                        viewBox="0 0 450 2"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        className={styles.line}
+                    >
+                        <line
+                            x1="-0.00228882"
+                            y1="0.518097"
+                            x2="449.998"
+                            y2="0.518097"
+                            stroke="white"
+                        />
+                    </svg>
                 </div>
-                <div>
-                    <h4>Heading 4</h4>
-                    <h4>Heading 4</h4>
+                <div className={styles['sign-in']}>
+                    <button className={styles.button}>Sign In</button>
                 </div>
-                <h4>Heading 4</h4>
+                <div className={styles['reg-forgot']}>
+                    <button className={styles.register}>Register</button>
+                    <button className={styles['forgot-password']}>Forgot Password?</button>
+                </div>
             </div>
             <svg
                 width="148"
