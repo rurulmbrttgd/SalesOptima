@@ -55,23 +55,11 @@
 
 
 .email {
-
+    width: 250px;
     color: #FFFFFF;
-    font-size: 25px;
-    font-weight: 400;
     position: relative;
-    padding-bottom: 0px;
-    margin: 0px;
-    top: 100px;
-    opacity: 1;
-}
-
-.password {
-    color: #FFFFFF;
-    font-size: 25px;
-    font-weight: 500;
-    position: relative;
-    top: 70px;
+    top: 5px;
+    height: 150px;
 }
 
 
@@ -81,6 +69,8 @@
     color: #FFFFFF;
     background-color: #FFFFFF;
     bottom: 40px;
+    width: 250px;
+    opacity: 0.7;
 }
 
 
@@ -88,8 +78,9 @@
     color: #FFFFFF;
     background-color: rgba(0, 0, 0, 0);
     border: 0px solid #FFFFFF;
-    opacity: 0.6;
+    opacity: 0.5;
     font-size: 25px;
+    width: 250px;
 }
 
 .button {
@@ -123,20 +114,117 @@
     top: 50px;
 }
 
-.confirm-password {
-    color: #FFFFFF;
-    font-size: 25px;
-    font-weight: 500;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    z-index: initial;
-    position: relative;
-    bottom: auto;
-    top: 45px;
-}
-
 .label {
     opacity: 0.7;
     font-weight: 300;
     font-size: 28px;
+    height: 150px;
+}
+
+.firstName {
+    display: grid;
+    color: #FFFFFF;
+    grid-auto-flow: column;
+}
+
+.name {
+    color: #FFFFFF;
+    display: grid;
+    grid-auto-flow: column;
+    position: relative;
+    top: 50px;
+    column-gap: 80px;
+}
+
+
+
+.first-last-name {
+    width: 250px;
+}
+
+.main-password {
+    color: #FFFFFF;
+    display: grid;
+    grid-auto-flow: column;
+    position: relative;
+    top: 20px;
+    column-gap: 80px;
+    height: 150px;
+    width: 250px;
+}
+
+.password {
+    width: 250px;
+}
+
+.full-lone {}
+
+.fullline {
+    width: 250px;
+    border: 0px solid black;
+}
+
+.line {}
+
+.company {
+    width: 250px;
+    color: #FFFFFF;
+    position: relative;
+    top: 5px;
+    height: 150px;
+}
+
+.busi-certificate {
+    color: #FFFFFF;
+}
+
+.cert {}
+
+.certificate {
+    color: #FFFFFF;
+    position: relative;
+    width: 250px;
+    opacity: 1;
+    top: 20px;
+}
+
+.file-upload {
+    font-size: 20px;
+    font-weight: 200;
+    opacity: 1;
+}
+
+.Terms-Condition {
+    position: relative;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    top: 20px;
+    opacity: 1;
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 10px;
+    opacity: 0.7;
+}
+
+.checkbox {
+    width: 20px;
+    opacity: 1;
+}
+
+.next {
+    position: absolute;
+    left: 580px;
+    bottom: 50px;
+}
+
+.phone-number {
+    width: 250px;
+    color: #FFFFFF;
+    position: relative;
+    top: 20px;
+    height: 150px;
 }
