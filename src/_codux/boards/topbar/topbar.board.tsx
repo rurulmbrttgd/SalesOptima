@@ -1,14 +1,14 @@
 import { createBoard } from '@wixc3/react-board';
-import { Login } from '../../../components/login/login';
+import { Topbar } from '../../../components/topbar/topbar';
 
 export default createBoard({
-    name: 'Login',
-    Board: () => <Login />,
+    name: 'Topbar',
+    Board: () => <Topbar />,
     isSnippet: true,
     environmentProps: {
         windowWidth: 1920,
         windowHeight: 1080,
-        canvasWidth: 1964,
-        canvasHeight: 1942,
+        canvasWidth: 1951,
+        canvasHeight: 1274,
     },
 });
