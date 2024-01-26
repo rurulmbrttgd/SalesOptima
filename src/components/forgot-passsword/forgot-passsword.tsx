@@ -108,9 +108,9 @@ export const ForgotPasssword = ({ className }: ForgotPassswordProps) => {
                         />
                     </svg>
                 </div>
-                <div className={styles['reg-forgot']}>
+                <div className={styles.reset}>
                     <button className={styles['forgot-password']}>Reset Password</button>
-                    <button className={styles.register}>Cancel</button>
+                    <button className={styles.cancel}>Cancel</button>
                 </div>
             </div>
         </div>

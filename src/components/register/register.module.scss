@@ -100,7 +100,6 @@
     font-size: 25px;
 }
 
-
 .forgot-password {
     border: 0px solid #FFFFFF;
     background-color: rgb(255, 255, 255);
@@ -140,24 +139,4 @@
     opacity: 0.7;
     font-weight: 300;
     font-size: 28px;
-}
-
-.reset {
-    display: grid;
-    gap: 40px 0px;
-    justify-items: center;
-    font-weight: 700;
-    padding-top: 60px;
-    justify-content: end;
-    text-align: start;
-}
-
-.ca {}
-
-.cancel {
-    font-size: 30px;
-    font-weight: 700;
-    border: 0px solid transparent;
-    border-radius: 20px;
-    padding: 5px 40px;
 }
