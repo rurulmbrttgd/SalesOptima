@@ -18,9 +18,11 @@ export const Feedback = ({ className }: FeedbackProps) => {
             </div>
             <div className={styles.email}>
                 <h2 className={styles['subject-text']}>Subject</h2>
-                <input className={styles['subject-input']} />
+                <input className={styles['subject-input']} placeholder='Subject'/>
                 <h2 className={styles['desc-text']}>Description</h2>
-                <input className={styles['desc-input']} />
+                <input className={styles['desc-input']} placeholder='Description'/>
+
+
             </div>
             <div className={styles['send-button']}>
                 <h2 className={styles['send-text']}>Send</h2>

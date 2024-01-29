@@ -1,8 +1,8 @@
 import { createBoard } from '@wixc3/react-board';
 import { Topbar } from '../../components/topbar/topbar';
 import { Sidebar } from '../../components/sidebar/sidebar';
-import { Dashboard } from '../../components/dashboard/dashboard';
 import Dashboard_module from '../../components/dashboard/dashboard.module.scss';
+import { Feedback } from '../../components/feedback/feedback';
 
 export default createBoard({
     name: 'Home',
@@ -13,7 +13,7 @@ export default createBoard({
             </div>
             <div className={Dashboard_module.content}>
                 <Sidebar />
-                <Dashboard />
+                <Feedback />
             </div>
         </div>
     ),
