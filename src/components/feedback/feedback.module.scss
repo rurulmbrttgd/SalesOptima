@@ -1,0 +1,82 @@
+.root {
+    width: 1466px;
+    height: 938px;
+    background-color: #FFFFF8;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.report-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+}
+
+.should-text {
+    margin-top: 75px;
+    background-color: 003140;
+    color: #003140;
+}
+
+.reports-text {
+    margin-top: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    color: #003140;
+}
+
+.subject-text {
+    font-weight: 700;
+    width: 680px;
+}
+
+.email {
+    height: 450px;
+    padding-left: 0px;
+    font-size: 20px;
+}
+
+.desc-text {
+    font-weight: 700;
+}
+
+.subject-input {
+    width: 680px;
+    height: 60px;
+}
+
+.desc-input {
+    width: 680px;
+    height: 180px;
+}
+
+.send-button {
+    width: 150px;
+    height: 50px;
+    background-color: #003140;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.send-text {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+}
