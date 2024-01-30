@@ -57,37 +57,6 @@ export const ProductPage = ({ className }: ProductPageProps) => {
                         </div>
                         <div className={styles.search}>
                             <h4 className={styles.searchHeader}>Search</h4>
-                            <svg
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                                className={styles.searchLogo}
-                            >
-                                <g clip-path="url(#clip0_383_95)">
-                                    <path
-                                        d="M17.5 17.5L22 22"
-                                        stroke="white"
-                                        stroke-opacity="0.66"
-                                        stroke-width="3"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                    />
-                                    <path
-                                        d="M20 11C20 6.02944 15.9706 2 11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20C15.9706 20 20 15.9706 20 11Z"
-                                        stroke="white"
-                                        stroke-opacity="0.66"
-                                        stroke-width="3"
-                                        stroke-linejoin="round"
-                                    />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_383_95">
-                                        <rect width="24" height="24" fill="white" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
                         </div>
                     </div>
                 </div>
