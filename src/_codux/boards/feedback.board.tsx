@@ -5,7 +5,7 @@ export default createBoard({
     Board: () => <Feedback />,
     isSnippet: true,
     environmentProps: {
-        windowWidth: 1920,
+        windowWidth: 1770,
         windowHeight: 1080,
         canvasWidth: 2062,
         canvasHeight: 1080,
