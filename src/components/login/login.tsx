@@ -10,13 +10,17 @@ export interface LoginProps {
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
 export const Login = ({ className }: LoginProps) => {
-    return (
-        <div className={classNames(styles.root, className)}>
+        return (
+        <div className={classNames(styles.root, classNames)}>
             <div className={styles['login-div']}>
                 <div className={styles.email}>
                     <h4>Email</h4>
                     <h4>
-                        <input className={styles['input']} value="abcde@gmail.com" />
+                        <input 
+                        placeholder="email" 
+                        className={styles['input']} 
+                        value="abcde@gmail.com" 
+                        />
                     </h4>
                     <svg
                         width="450"
@@ -39,6 +43,7 @@ export const Login = ({ className }: LoginProps) => {
                     <h4>Password</h4>
                     <h4 className={styles['password-text']}>
                         <input
+                            placeholder='********'
                             className={styles['input']}
                             value="abcde@gmail.com"
                             type="password"
