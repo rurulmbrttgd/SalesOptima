@@ -1,0 +1,516 @@
+#root{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 100%;
+}
+
+.login-root{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    background-color: #003140;
+}
+
+.logo-div {
+    background-color: #003140;
+    height: auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: 0px;
+    padding-right: 300px;
+    position: relative;
+}
+
+.login-div {
+    width: 500px;
+    background-color: #003140;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: start;
+    column-gap: 0px;
+    justify-content: center;
+    position: relative;
+    row-gap: 10px;
+    margin: 0px;
+}
+
+.middle-line{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100vh;
+    width: 148px;
+}
+
+
+.login-logo {
+    width: 500px;
+    display: flex;
+    margin-top: 75px;
+}
+
+
+.email {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.password {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.line {
+    position: relative;
+    border: 0px solid black;
+    /* color: #FFFFFF; */
+    /* background-color: #FFFFFF; */
+    bottom: 20px;
+}
+
+
+.input {
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px solid #FFFFFF;
+    opacity: 0.6;
+    font-size: 25px;
+    width: 80%;
+}
+
+.sign-in {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 25px;
+    right: 60px;
+}
+
+.signIn {
+    border: 0px solid #FFFFFF;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0);
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.reg-forgot {
+    display: grid;
+    grid-auto-flow: row;
+    position: relative;
+    right: 60px;
+    align-items: center;
+    grid-template-rows: 0;
+    gap: 15px;
+    top: 35px;
+}
+
+.register {
+    border: 0px solid #FFFFFF;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0);
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.forgot-password {
+    border: 0px solid #FFFFFF;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0);
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+/*/////// REGISTER STYLE /////////*/
+.logoreg-div {
+    background-color: #003140;
+    height: 100%;
+    /* width: 560px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 0px;
+}
+
+.login-reg-div {
+    width: 560px;
+    background-color: #003140;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: start;
+    gap: 0px px;
+    column-gap: 0px;
+    justify-content: center;
+    position: relative;
+    row-gap: 10px;
+    margin-left: 50px;
+}
+
+.forgotPassword-text {
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 60px;
+    display: inline;
+    position: relative;
+    top: 50px;
+}
+
+.label {
+    opacity: 0.7;
+    font-weight: 200;
+    font-size: 20px;
+    width: 300px;
+    /* height: 150px; */
+}
+
+.firstName {
+    display: grid;
+    color: #FFFFFF;
+    grid-auto-flow: column;
+}
+
+.name {
+    color: #FFFFFF;
+    display: grid;
+    grid-auto-flow: column;
+    position: relative;
+    top: 50px;
+    margin-bottom: 50px;
+    column-gap: 80px;
+}
+
+
+
+.first-last-name {
+    width: 250px;
+}
+
+.email-reg {
+    color: #FFFFFF;
+    display: flex;
+    position: relative;
+    top: 50px;
+    margin-bottom: 50px;
+    column-gap: 80px;
+}
+
+.main-password {
+    color: #FFFFFF;
+    display: flex;
+    position: relative;
+    top: 50px;
+    margin-bottom: 50px;
+    column-gap: 100px;
+}
+
+.password {
+    width: 250px;
+}
+
+.company {
+    color: #FFFFFF;
+    display: flex;
+    position: relative;
+    top: 50px;
+    margin-bottom: 50px;
+    column-gap: 100px;
+}
+
+.busi-certificate {
+    color: #FFFFFF;
+}
+
+.certificate {
+    color: #FFFFFF;
+    display: flex;
+    position: relative;
+    top: 50px;
+    margin-bottom: 70px;
+}
+
+.file-upload {
+    font-size: 18px;
+    font-weight: 200;
+    opacity: 1;
+}
+
+.Terms-Condition {
+    position: relative;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    width: 100%; /* Added to span the entire width */
+    align-items: center; /* Added for vertical alignment */
+    opacity: 1;
+}
+
+.text {
+    font-size: 20px;
+    opacity: 0.7;
+    position: relative;
+    top: 8px;
+}
+
+.checkbox {
+    width: 20px;
+    opacity: 1;
+}
+
+
+.next {
+    position: absolute;
+    left: 580px;
+    bottom: 50px;
+}
+
+.phone-number {
+    color: #FFFFFF;
+    display: flex;
+    position: relative;
+    top: 50px;
+    margin-bottom: 50px;
+    column-gap: 100px;
+}
+
+/* Add the following styles to your existing CSS */
+
+.email-reg,
+.company,
+.phone-number
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px; /* Adjust the margin as needed */
+}
+
+
+
+.checkbox {
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.next {
+    position: absolute;
+    left: 580px;
+    bottom: 50px;
+}
+
+.main-password
+.phone-number,
+.email-reg,
+.company,
+.certificate {
+    width: 100%; /* Span the entire width */
+}
+
+
+/*////////////// TOP BAR STYLE ////////////// */
+.root-top-bar {
+    height: 100px;
+    background-color: #003140; /* Dark blue color from your image */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.top-bar-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.top-bar-logo img{
+    width: 75px;
+    height: auto
+
+}
+
+.top-bar-logo .Sales-text {
+    color: #FFD700; 
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.top-bar-logo .Optima-text {
+    color: #ffffff; 
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+
+
+/*////////////// SIDE BAR STYLE //////////////*/
+.root-side-bar {
+    height: 100vh;
+    width: 300px;
+    background-color: #FFFFF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+    align-items: start;
+    /* border-right: 1px solid black;  */
+    padding-right: 10px; 
+
+}
+
+/* .login-root{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    background-color: #003140;
+} */
+
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+
+.sidebar-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    padding: 10px 0 10px 20px;
+    margin: 0 0 25px 0;
+    top: 25px;
+    left: 25px;
+    width: 220px;
+    border: 0px solid black;
+    border-radius: 15px;
+  
+    cursor: pointer;
+    text-decoration: none; 
+    color: inherit;
+    font-weight: inherit; 
+}
+
+.sidebar-button-text {
+    text-align: start;
+    font-weight: 500;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.sidebar-button:hover {
+    background-color: #f0f0f0;
+}
+
+.sidebar-button.active {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+
+
+/*////////////// Forgot Password STYLE ////////////// */
+
+.forgot-div{
+    width: 500px;
+    background-color: #003140;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: start;
+    column-gap: 0px;
+    justify-content: center;
+    position: relative;
+    row-gap: 10px;
+    left: 150px;
+}
+.forgotP-text{
+    color: white;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.reset-password{
+    border: 0px solid #FFFFFF;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0);
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.cancel{
+    border: 0px solid #FFFFFF;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0);
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.reset-cancel{
+    display: grid;
+    grid-auto-flow: row;
+    position: relative;
+    right: 20px;
+    align-items: center;
+    grid-template-rows: 0;
+    gap: 15px;
+    top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+/*////////////// HOME STYLE ////////////// */
+.root-home{
+    background-color: #FFFFF8;
+}
+
+
+/*////////////// Customer STYLE ////////////// */
+
+
+
+
+/*////////////// Transaction STYLE ////////////// */
+
+
+.root-transaction{
+    background-color: #FFFFF8;
+}
+

@@ -1,0 +1,466 @@
+/*///////// helpcenter //////////*/
+.helpcenter-root {
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFFF8;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.report-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+}
+
+.Caption{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    grid-auto-flow: row;
+}
+
+.should-text {
+    margin-top: 15px;
+        color: #003140;
+}
+
+.reports-text {
+    margin-top: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    color: #003140;
+}
+
+.subject-text {
+    font-weight: 700;
+    width: 680px;
+}
+
+.search {
+    height: auto;
+    padding-left: 0px;
+    font-size: 20px;
+}
+
+
+.search-input {
+    width: 680px;
+    height: 60px;
+    border-radius: 26px;
+    padding-left: 25px;
+    margin-left: 0px;
+}
+
+.helpbox {
+    display: grid;
+    grid-auto-flow: column;
+    width: auto;
+    height: auto;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.youtube {
+    width: 370px;
+    height: 350px;
+    background-color: #D2D9DD;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+}
+
+.yt-text{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.gray {
+    height: 225px;
+    width: 300px;
+    background-color: #161010;
+border-radius: 15px;
+}
+
+.youtube-icon{
+    width: 100px;
+    /* margin-top: 60px; */
+}
+
+/*Help Center hehe*/
+.youtube:hover {
+    background-color: #f0f0f0; 
+    cursor: pointer;
+}
+.handbook:hover {
+    background-color: #f0f0f0; 
+    cursor: pointer;
+}
+
+.faq:hover {
+    background-color: #f0f0f0; 
+    cursor: pointer;
+}
+
+.handbook {
+    width: 370px;
+    height: 350px;
+    background-color: #D2D9DD;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hb-text{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.blue{
+    height: 225px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: #4D9AA4;
+}
+
+.handbook-icon{
+    width: 80px;
+    /* margin-top: 5px; */
+}
+
+.faq {
+    width: 370px;
+    height: 350px;
+    background-color: #D2D9DD;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+}
+
+.faq-text{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.yellow{
+    height: 225px;
+    width: 300px;
+border-radius: 15px;
+    background-color: #F2E6B7;
+}
+
+.faq-icon{
+    width: 80px;
+    margin-top: 70px;
+}
+/* Feedback style */
+
+.feedback-root {
+    width: 100%; /* Full width */
+    min-height: 100vh; /* Minimum height to cover the viewport */
+    background-color: #FFFFF8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* Add padding for better appearance */
+}
+
+
+
+.subject-text, .desc-text {
+    font-weight: 700;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.feedback-email {
+    width: 100%;
+    max-width: 680px; /* Limit max width for better readability */
+}
+
+.subject-input, .desc-input {
+    width: 100%;
+    height: 60px; /* Adjust the height as needed */
+    border: 1px solid #003140;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    transition: border-color 0.3s;
+}
+
+.subject-input:focus, .desc-input:focus {
+    border-color: #001e2c;
+}
+
+.desc-input {
+    height: 180px;
+}
+
+.send-button {
+    width: 150px;
+    background-color: #003140;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.send-button:hover {
+    background-color: #001e2c;
+}
+
+.send-text {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+/*/////// Backup style /////// */
+
+
+.root-backup {
+    width: 100%;
+    height: auto;
+    background-color: #FFFFF8;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.backUp {
+    display: grid;
+    grid-auto-flow: column;
+    width: 1200px;
+    position: relative;
+    gap: 0px 50px;
+    column-gap: 80px;
+    margin: 0px 0px 0px 25px;
+    top: 80px;
+}
+
+.mainBackup {
+    position: relative;
+    background-color: #AFC7CF;
+    border-radius: 13px;
+    height: 270px;
+    padding: 0px;
+    margin: 0px 25px 15px 0;
+    top: 28px;
+}
+
+.mainRestore {
+    position: relative;
+    height: 270px;
+    top: 35px;
+    background-color: #AFC7CF;
+    border-radius: 13px;
+    margin: 0px 25px 15px 0;
+}
+
+.Restore {
+    width: 1200px;
+    position: relative;
+    margin: 0px 0 0px 25px;
+    top: 140px;
+}
+
+
+.text {
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+.title {
+    position: absolute;
+    text-align: start;
+    left: 520px;
+    color: #0B0B0B;
+    overflow: visible;
+    z-index: 1;
+    top: 10px;
+}
+
+
+
+.title2 {
+    position: absolute;
+    text-align: start;
+    left: 500px;
+    color: #0B0B0B;
+    overflow: visible;
+    z-index: 1;
+    bottom: 120px;
+}
+
+.dropdown {
+    height: 40px;
+    width: 60%;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    border-radius: 10px;
+}
+
+.DownloadData {
+    position: absolute;
+    right: 120px;
+    font-size: 25px;
+    background-color: #003140;
+    color: #FFFFFF;
+    border: 0px solid transparent;
+    border-radius: 15px;
+    bottom: 30px;
+    width: 225px;
+}
+
+.fileUpload {
+    font-size: 30px;
+    text-align: start;
+    margin-left: 40px;
+}
+
+.import {
+    position: absolute;
+    font-size: 25px;
+    background-color: #003140;
+    color: #FFFFFF;
+    border: 0px solid transparent;
+    border-radius: 15px;
+    width: 200px;
+    right: 120px;
+    bottom: 30px;
+}
+
+
+
+/* Product Root */
+
+.product-root {
+    width: 1460px;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: start;
+    justify-items: center;
+    grid-template-columns: 50px 25% 10% 20%;
+    padding: 10px 0 0 0;
+    background-color: #FFFFF8;
+}
+
+.firstColumn {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    top: 33px;
+}
+
+.secondRow,
+.thirdRow,
+.fourthRow,
+.fifthRow,
+.sixthRow {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.search {
+    background-color: #003140;
+    color: #FFFFFF;
+    text-align: start;
+    padding-left: 0px;
+    margin-top: 0px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    top: 18px;
+    border-radius: 20px;
+}
+
+.searchHeader {
+    font-size: 20px;
+    width: 140px;
+    padding: 0px;
+    margin-left: 0px;
+    position: relative;
+    left: 18px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.searchLogo {
+    position: relative;
+    right: 15px;
+}
+
+.Header {
+    font-size: 20px;
+    width: 140px;
+}
+
+/*/////////////////////////////          Transaction STYLE         /////////////////////// */
+
+.root-transact{
+    display: flex;
+    width: 1600px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px 0px 0px;
+    background-color: #FFFFF8;
+
+}
+
+.table{
+    width: auto;
+    height: auto;
+}
+
+.transac-title{
+    padding-bottom: 15px;
+}
